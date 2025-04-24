@@ -6,6 +6,9 @@ You can test your work as you go along with `npm run test:database`.
 1. Create a new PostgreSQL database named `fullstack_employees`.
 2. In `schema.sql`, write SQL to create an `employees` table according to the following schema.
 
+remember
+psql -d moviedb -f db/schema.sql
+
 ![](./schema.svg)
 
 <details>
